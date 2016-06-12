@@ -1,0 +1,111 @@
+
+.menu li.valitud {
+	background: white;
+}
+.menu li.valitud a {
+	color:#FF1493; 
+}
+.menu a{
+	text-decoration:none; 
+	color: black;
+	font-weight:bold; 
+	font-size:16px; 
+	text-align:center; 
+}
+.menu a:hover{
+	text-decoration: underline;
+}
+.menu{
+	margin-bottom: 10px;
+}
+.menu ul{	
+	list-style-type: none; //removes bullets//
+	margin: 0px; 
+	padding: 0px;
+}
+.menu li{
+	padding: 5px 15px;
+	width: 8em;
+	background-color: SpringGreen;
+	float: left;
+	/*body>div {background: black;}
+		div>ul>li>a {
+			color:white;
+			background: black;
+			display: inline-block;
+			padding: 4px 10px;
+		}
+*/
+}
+body {
+	background: DeepPink;
+}
+.body {
+	background: SpringGreen;
+	max-width: 1000px;
+	min-width: 600px;	
+	margin: auto;
+		}
+.body h1{
+	color:#FF1493;
+}
+.body div h1:hover, h2:hover, h3:hover{
+	background-color:yellow;
+}
+.body div p:hover{
+	font-size:20px; 
+	background-color:white;
+}
+.body div img {
+	border: 3px solid SpringGreen;
+}
+#heading {
+	color: #FF1493;
+}
+#sisu {
+	background-color: Snow;
+}
+
+#taust{ /* taust, mis peidab lehe sisu */
+	position: fixed;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	background: rgba(0,0,0,0.7);
+	z-index:5;
+}
+#tabel{ /* toob suure pildi esile ja määrab kuvamise ala tabelina */
+	position: absolute;
+	top: 0px;
+	bottom: 0px;
+	left: 0px;
+	right: 0px;
+	margin:0 auto;
+	z-index: 10;
+	display:table;
+  	width:100%;
+  	height:100%;
+  	color:white;
+}
+#cell{ /* paigutab pildi ja teksti vertikaalselt keskele nagu tabelivälja */
+	display:table-cell;
+  	vertical-align:middle;
+}
+#sise { /* teeb pildi ümbruse kitsamaks ja annab tausta */
+	display: table;
+	margin: auto;
+	background: rgba(0,0,0,0.7);
+	padding: 10px;
+}
+#sulge { /* sulgemise element */
+	position: fixed;
+	top: 0;
+	right: 0;
+	z-index: 15;
+	padding:4px;
+	font-weight: bold;
+}
+#hoidja {  /* ümbritseb kogu suure pildi elementide hulka 0px kõrgusena, et teised elemendid taga oleks kasutatavad*/
+	height: 0px;
+}

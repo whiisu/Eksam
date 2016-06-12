@@ -1,11 +1,6 @@
-# Eksam
-aines Võrgurakendused I
+Eksam
 
-vorm2.php omab ühendust andmebaasiga
-
-vorm.php näeb lihtsalt kena välja
-
-
+Kõikide vahendite (välja arvatud sõbrad ja tuttavad) kasutamine on lubatud.
 
 Sinu ülesanne
 

@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+	<head>		
+		<title>Login</title>
+		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />	
+		<link rel="stylesheet" type="text/css" href="stiil.css" />
+	</head>
+	<body class="body">
+		<div class="menu">
+		<ul>
+  			
+  			<li class="valitud"><a href="vorm.html">Lae pilt</a></li>
+  			<p style="clear:both">
+		</ul>
+		</div>
+		
+	<div id="sisu" style="text-align: justify";>
+	<form action="vorm.html" method="POST" enctype="multipart/form-data">
+		<h1>Faili laadimine</h1>
+		<br>
+		<table>
+			<tr>
+				<td>Autor:</td>
+				<td><input type="text" name="autor"></td>
+			</tr>			
+			<tr>
+				<td>Pealkiri:</td>
+				<td><input type="text" name="pealkiri"></td>
+			</tr>	
+			
+			<tr>
+				<td>Dokument:</td>
+				<td><input type="file" name="fail"></td>
+			</tr>			
+			
+		</table>
+		<br>
+		<br>
+		<button type="Submit">Lae uus fail</button>
+	</form>
+	</div>
+	</body>
+</html>
